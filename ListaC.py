@@ -36,6 +36,7 @@ class ListaC_Doble_Enlazada:
         self.ultimo.siguiente = self.primero
 
     def Recorrer_Inicio_hasta_Fin(self):
+        print("Elementos de la lista: ")
         aux = self.primero
         while aux:
             print(aux.dato)
@@ -45,6 +46,7 @@ class ListaC_Doble_Enlazada:
                 break
 
     def Recorrer_Fin_hasta_Inicio(self):
+        print("Elementos de la lista: ")
         aux = self.ultimo
         while aux:
             print(aux.dato)
@@ -54,7 +56,7 @@ class ListaC_Doble_Enlazada:
                 break
 
     def Buscar_Nodos(self, dato):
-        print("Elementos de la lista: ")
+        
         aux = self.primero
 
         while (aux != None):

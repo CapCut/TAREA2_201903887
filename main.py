@@ -15,7 +15,7 @@ lista.Agregar_Final(nuevo[6])
 """lista.Recorrer_Fin_hasta_Inicio()"""
 print("=" * 6)
 lista.Recorrer_Inicio_hasta_Fin()
-print("=" * 6)
+print("=" * 15)
 x = int(input("Seleccione un número （￣︶￣）↗　: "))
-
+print("=" * 15)
 lista.Buscar_Nodos(x)
