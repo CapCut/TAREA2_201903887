@@ -52,3 +52,17 @@ class ListaC_Doble_Enlazada:
 
             if aux == self.ultimo:
                 break
+
+    def Buscar_Nodos(self, dato):
+        print("Elementos de la lista: ")
+        aux = self.primero
+
+        while (aux != None):
+            if(aux.dato == dato):
+                print("Anterior: ", str(aux.anterior.dato))
+                print("Actual: ", str(aux.dato))
+                print("Siguiente: ", str(aux.siguiente.dato))
+            
+            if(aux.siguiente == self.primero):
+                return
+            aux = aux.siguiente

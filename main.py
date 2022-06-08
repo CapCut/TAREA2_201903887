@@ -18,9 +18,4 @@ lista.Recorrer_Inicio_hasta_Fin()
 print("=" * 6)
 x = int(input("Seleccione un número （￣︶￣）↗　: "))
 
-if (x == None):
-    pass
-else:
-    print("Anterior: ", str(x-1))
-    print("Acutal: ", x)
-    print("Siguinete: ", str(x+1))
+lista.Buscar_Nodos(x)
